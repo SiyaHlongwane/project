@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            color:  white
+        }
+        .menu-box{
+            border: 10px solid rgb(0, 0, 0);
+            padding: 20px;
+            margin-bottom: 10px;
+            width: 450px;
+            height: 450px;
+            overflow: hidden;
+            transform: rotate(90deg);
+        }
+        .menu-list{
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+            font-size: bold;
+            width: 350px;
+        }
+        .menu-list li{
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            color:  white;
+        }
+        .price{
+            margin-left: auto;
+        }
+        .background-section{
+            width: auto;
+            height: 680px;
+            position: relative;
+            background-image: url(https://i.pinimg.com/736x/62/ae/04/62ae045abc8734e0ee2fc39c317698cb.jpg);
+        }
+        .content-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-90deg);
+        }   
+    </style>
+</head>
+<body>
+    <div class="background-section">
+        <div class="menu-box">
+            <div class="content-wrapper">
+        <h3>MIX, MATCH <b>& SHARE</b></h3>
+        <ul class="menu-list">
+            <li>SPICY BUFFALO WINGS<span class="price">R130.00</span></li>
+            <br>
+            <li>NACHOS<span class="price">R90.00</span></li>
+            <br>
+            <li>CHIPOTLE CHICKEN LIVERS<span class="price">R180.00</span></li>
+            <br>
+            <li>SESAME-CRUSTED CHICKEN<span class="price">R200.00</span></li>
+            <br>
+            <li>HALLOUMI FRIES<span class="price">R70.00</span></li>
+        </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
